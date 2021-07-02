@@ -1,0 +1,106 @@
+body
+{
+	font-family: "Arial";
+}
+
+.inputContainer 
+{
+	margin: auto;
+	margin-left: 50px;
+	background : #eeeeee;
+	border:2px;
+	border-style: solid;
+	border-color: #e3e3e3;
+    
+
+}
+
+input:focus, textarea:focus
+{
+	background-color: lightyellow;
+}
+
+input[type=submit]
+{
+	border-radius: 5px;
+	background-color: #cd0000;
+	color: white;
+	font-weight: bolder;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.processorImg
+{
+	width:100px;
+	height:50px;
+	position: relative;
+	top:-20px;
+	margin-left: 50px;
+}
+
+label,h3
+{
+	margin-left:50px;
+	font-weight: 600;
+}
+
+label
+{
+	font-size: 12px;
+}
+
+.boldlabel
+{
+	font-weight: bolder;
+	margin-bottom: 100px;
+	top:-40px;
+	position: relative;
+	margin-right: 30px;
+	left: 50px;
+}
+
+hr
+{
+	position: relative;
+	margin-bottom: 30px;
+	top:-15px;
+}
+
+.cvvHelp
+{
+	margin-left: 145px;
+	position: relative;
+	top:10px;
+	font-weight: normal;
+	
+}
+
+.continue
+{
+	margin-left: 150px;
+	left:135px;
+	position: relative;
+}
+
+#securityCodeInput
+{
+	width:40px;
+	margin-left: 12px;
+}
+
+#cardNumberInput
+{
+	margin-left: 15px;
+}
+
+
+select
+{
+	width:60px;
+}
+
+#monthSelector
+{
+	margin-left:5px;
+}
